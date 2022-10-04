@@ -6,8 +6,11 @@ public class Main {
 
         Adapter adapter = new AdapterImpl();
 
-        Float aFloat = adapter.twiceOf(100f);
-        Float aFloat1 = adapter.halfOf(88f);
+        Float float1 = adapter.twiceOf(20.0f);
+        Float float2 = adapter.halfOf(20.0f);
+
+        System.out.println("float1 = " + float1);
+        System.out.println("float2 = " + float2);
 
     }
 }
